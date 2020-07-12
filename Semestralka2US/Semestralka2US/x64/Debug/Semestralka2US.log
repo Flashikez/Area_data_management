@@ -1,0 +1,16 @@
+﻿  citac.cpp
+c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(321): warning C4305: 'initializing': truncation from '__int64' to 'double'
+c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(313): warning C4101: 'najvacsi': unreferenced local variable
+c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(314): warning C4101: 'najmensi': unreferenced local variable
+c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(394): warning C4305: 'initializing': truncation from '__int64' to 'double'
+c:\users\marek\desktop\semestralka2us\semestralka2us\structures\table\sorting\heap_sort.h(41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\marek\desktop\semestralka2us\semestralka2us\structures\table\sorting\heap_sort.h(23): note: while compiling class template member function 'void structures::HeapSort<SortKey,std::string>::sort(structures::UnsortedSequenceTable<SortKey,std::string> &)'
+  c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(282): note: see reference to function template instantiation 'void structures::HeapSort<SortKey,std::string>::sort(structures::UnsortedSequenceTable<SortKey,std::string> &)' being compiled
+  c:\users\marek\desktop\semestralka2us\semestralka2us\citac.cpp(281): note: see reference to class template instantiation 'structures::HeapSort<SortKey,std::string>' being compiled
+  Generating Code...
+  Compiling...
+  vstup.cpp
+  main.cpp
+  Generating Code...
+  Semestralka2US.vcxproj -> C:\Users\Marek\Desktop\Semestralka2US\x64\Debug\Semestralka2US.exe
+  Semestralka2US.vcxproj -> C:\Users\Marek\Desktop\Semestralka2US\x64\Debug\Semestralka2US.pdb (Full PDB)

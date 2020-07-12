@@ -1,0 +1,24 @@
+﻿  Hlavny.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  citac.cpp
+c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\citac.cpp(18): warning C4101: 'hodnota': unreferenced local variable
+c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\structures\table\sorted_sequence_table.h(121): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\structures\table\sorted_sequence_table.h(118): note: while compiling class template member function 'int structures::SortedSequenceTable<std::string,OkresUCH *>::indexOfKey(const K &,int,int,bool &) const'
+          with
+          [
+              K=std::string
+          ]
+  c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\structures\table\sorted_sequence_table.h(74): note: see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,OkresUCH *>::indexOfKey(const K &,int,int,bool &) const' being compiled
+          with
+          [
+              K=std::string
+          ]
+  c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\structures\table\sorted_sequence_table.h(48): note: while compiling class template member function 'structures::SortedSequenceTable<std::string,OkresUCH *>::SortedSequenceTable(void)'
+  c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\citac.cpp(101): note: see reference to function template instantiation 'structures::SortedSequenceTable<std::string,OkresUCH *>::SortedSequenceTable(void)' being compiled
+  c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\citac.cpp(69): note: see reference to class template instantiation 'structures::SortedSequenceTable<std::string,OkresUCH *>' being compiled
+  Generating Code...
+c:\users\marek\desktop\informatika3\semestralka2us\semestralka2us\structures\table\sorted_sequence_table.h(147): warning C4715: 'structures::SortedSequenceTable<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,OkresUCH *>::indexOfKey': not all control paths return a value
+  Semestralka2US.vcxproj -> C:\Users\Marek\Desktop\informatika3\Semestralka2US\Debug\Semestralka2US.exe
+  Semestralka2US.vcxproj -> C:\Users\Marek\Desktop\informatika3\Semestralka2US\Debug\Semestralka2US.pdb (Full PDB)

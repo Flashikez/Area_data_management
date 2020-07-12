@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="citac" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACgAAEAAAAAAAIAAAAQBAAgAAACAhAAAAEAAAAAg=</HashCode>
+      <FileName>citac.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="krajeTAB" />
+      <Field Name="okresyTAB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kraj" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAAAQAAAAQAAAAgAAAAACAAQAAAAAAEAA=</HashCode>
+      <FileName>Kraj.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="zoznamOKRESOV" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Okres" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>RAEAAAEAAAQEUACAEAEQAAAACAAEAAAAIAABAAAAAAA=</HashCode>
+      <FileName>Okres.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="zoznamNEZ" />
+      <Field Name="zoznamUCH" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SortKey" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAICAQAQAAAAAAAAIgAAAgCAEAAAA=</HashCode>
+      <FileName>SortKey.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vstup" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACIAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vstup.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cita" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ZaznamNEZ" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAEAAAAAICAAwAAAAAAAAAAAABAAAJAAAA=</HashCode>
+      <FileName>ZaznamNEZ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZaznamUCH" Collapsed="true">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAEiABACIACACAACAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ZaznamUCH.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UdajNEZ" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AoAAQAAEAAAAAACAAAAAAAAIAAAAAAAAAAAEAAAAACA=</HashCode>
+      <FileName>UdajNEZ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::HashTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="structures::HashTable&lt;K, T&gt;::HashTableIterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>structures\table\hash_table.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAIQgAABAAAAEAYAAAARCAAEAAAMAAAAgEAAAAAA=</HashCode>
+      <FileName>structures\table\hash_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::ArrayList&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAABAAAAACYgAAABAQAEAAAEAAgAgEAECAAA=</HashCode>
+      <FileName>structures\list\array_list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
